@@ -15,4 +15,4 @@
 ### How can poor commit messages cause issues later?
 - hard to find bugs 
 - hard to understand new methods, variables and functions
-- wasting time to understand what changes were done
+- wasting time to understand what changes were madee
