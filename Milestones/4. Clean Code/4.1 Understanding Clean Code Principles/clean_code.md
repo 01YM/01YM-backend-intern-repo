@@ -1,4 +1,4 @@
-## Reflection 
+## 4.1 Reflection 
 
 ### Simplicity
 - Self explanitory: writing a solution as simple as possible. It needs to be short, clean, not have any extra logic, unnecessary variables or complicated structures. 
