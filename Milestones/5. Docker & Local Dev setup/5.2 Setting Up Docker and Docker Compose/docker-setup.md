@@ -14,3 +14,30 @@
 
 ### What happens when you restart a container? Does data persist?
 - yes, the data stays the same since the container is being used. But if a container is deleted and recreated, the data will be lost. Docker volume is used to prevent that data loss by strong the data outside of its container. This way the data wont be lost and its useful for recovering user information. 
+
+
+## Task -- Exploring Docker 
+
+- Ive created a simple HTML Tic-Tac-Toe game to test Docker, the project folder contains the game file and Dockerfile
+
+![OnboardContainer FOLDER](image.png)
+
+- Building  docker image using docker build -t my-first-app .
+
+![alt text](image-1.png)
+
+- Running  the container and openning it in the browser
+
+![TicTacToeHTML](image-2.png)
+
+- Testing docker ps to see running containers and docker images to see the saved package of my applications 
+
+![docekr ps cmd](image-3.png)
+
+- docker logs show that the web server inside the container started correctly and finished loading the settings. The website also opened in the browser and the server handled the request correctly. 
+
+![docker logs cmd](image-4.png)
+
+- after using docker stop and docker ps -a, it showed that the container was stopped and the status updated to exited 
+
+![docker stop](image-5.png)
