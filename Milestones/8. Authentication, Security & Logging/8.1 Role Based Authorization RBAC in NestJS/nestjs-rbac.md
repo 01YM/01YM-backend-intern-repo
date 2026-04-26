@@ -1,3 +1,25 @@
+## 8.1 Reflection 
+
+### How does Auth0 store and manage user roles?
+
+- By assigning them to users inside its authorization system. Each role can have different permissions attached to it. For example, an admin role may be allowed to create, edit, and delete data, while a normal user role may only be allowed to view data. In this task, the mock user had the admin role, which allowed access to the protected /tasks/admin endpoint.
+
+### What is the purpose of a guard in NestJS?
+
+- Its used to decide whether a request should be allowed to continue or be blocked. It runs before the controller method is executed. In the task, the JWT guard checked if a Bearer token was included in the request, and the roles guard checked if the logged-in user had the correct role.
+
+### How would you restrict access to an API endpoint based on user roles?
+
+- Adding a roles decorator to the endpoint and using a roles guard. For example, adding @Roles('admin') means only users with the admin role are allowed to use that route.
+
+### What are the security risks of improper authorization, and how can they be mitigated?
+
+- If authorization is not set up correctly, users may be able to access data or actions they should not have permission for. This can be prevented by using guards, checking roles correctly, validating tokens properly, and only giving users the minimum permissions they need.
+
+
+
+## Task 
+
 - Installed the packages needed for JWT token checking, Passport integration, and Auth0-style authorization after creating the new NestJS project
 
 ![installing packages ](image.png)
