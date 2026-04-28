@@ -21,3 +21,5 @@
 - Im adding a player component to inventory system in the nestJS application. using the CLI, adding the player module, service and controller
 
 ![playercomponent](image.png)
+
+- github link: https://github.com/01YM/nestjs-inventory-game

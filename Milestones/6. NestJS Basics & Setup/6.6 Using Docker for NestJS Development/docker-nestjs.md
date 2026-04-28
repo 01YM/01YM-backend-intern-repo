@@ -17,7 +17,7 @@
 - with commands like docker compose, logs api, and docker compose logs db. For debugging, you can also inspect the running containers with docker compose ps and open a shell inside a container with a command like docker exec -it nest-api sh to look around and test things directly. NestJS also has a built-in logger that prints startup messages and exceptions, which helps when reading container logs
 
 ## Task 
-
+- github link: https://github.com/01YM/nestjs-inventory-game
 - made a dockerfile with a docker-compose.yml in the root of the nestJS project so Docker knows how to build the NestJS app container and run it together with PostgreSQ
 
 ![AddDocker](image.png)

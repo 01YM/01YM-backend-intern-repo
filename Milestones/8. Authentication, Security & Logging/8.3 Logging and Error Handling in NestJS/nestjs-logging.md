@@ -17,7 +17,7 @@
 - Logs should include useful details like the request method, route path, status code, timestamp, and error message. This makes it easier to find what happened when something breaks. Pino logged request information, and the exception filter returned clear error details for debugging in the task below
 
 ## Task
-
+- Github link: https://github.com/01YM/nestjs-authentication
 - Installed nestjs-pino and related packages. These are used to add structured logging to the NestJS app, so requests and errors are logged clearly instead of using basic console logs 
 
 ![pinoinstall](image.png)

@@ -17,7 +17,7 @@
 - By using the migration:revert command. This runs the down() part of the latest migration and undoes the last database change. If more than one migration needs to be undone, you run the command again for each one
 
 ## Task 
-
+- github link: https://github.com/01YM/nestjs-inventory-game
 - Created a data-source.ts file in the project root so TypeORM knows how to connect to PostgreSQL and where to find entities and migration files. 
 
 ![dataSource](image.png)

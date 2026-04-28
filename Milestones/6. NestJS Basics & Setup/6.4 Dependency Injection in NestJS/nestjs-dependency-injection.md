@@ -9,6 +9,8 @@
 - its to mark a class as a provider that NestJS can manage in its dependency injection system. In the inventory app, adding @Injectable() to InventoryService tells Nest that this service can be created and injected where it is needed
 ![Injectable](image.png)
 
+- github link: https://github.com/01YM/nestjs-inventory-game
+
 ### What are the different types of provider scopes, and when would you use each?
 
 - NestJS has three provider scopes: singleton, request, and transient.

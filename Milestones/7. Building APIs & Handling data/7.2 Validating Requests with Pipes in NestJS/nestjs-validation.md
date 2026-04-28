@@ -17,7 +17,7 @@
 - they tell NestJS what type of value each field should contain. ValidationPipe reads those decorators and checks the request body against them. In the task below, @IsString() was used for the task title and @IsBoolean() was used for the completed field
 
 ## Task 
-
+- github link: https://github.com/01YM/nestjs-inventory-game
 - installed class-validator and class-transformer packages to validate incoming request data using DTOs and validation decorators
 
 ![installing packages](image.png)

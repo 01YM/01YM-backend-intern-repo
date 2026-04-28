@@ -14,7 +14,7 @@
 
 
 ## Task 
-
+- github link: https://github.com/01YM/nestjs-inventory-game
 - created logging.interceptor.ts to log information before and after a request is handled. The interceptor logged the request method and route before the controller ran, then logged the response data and response time after the controller finished 
 
 ![interceptorts](image.png)

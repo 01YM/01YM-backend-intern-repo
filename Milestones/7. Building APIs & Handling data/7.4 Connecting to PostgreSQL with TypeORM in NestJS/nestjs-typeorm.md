@@ -17,7 +17,7 @@
 - It is reliable, works well with relational data, and has good support in TypeORM through the pg driver. It is useful when your app has structured data and relationships between tables. In this task, PostgreSQL was a better long-term option than storing tasks in a simple array because the data can stay saved outside the app.
 
 ## Task 
-
+- github link: https://github.com/01YM/nestjs-inventory-game
 - installed the TypeORM packages so the NestJS app could connect to PostgreSQL and work with database tables using TypeScript instead of only using a temporary array in the service. 
 
 ![typeorm](image.png)

@@ -13,7 +13,7 @@
 - You can use different .env files for different environments, like .env for local and .env.production for deployment. This way, the app can use different settings depending on where it is running, without changing the code
 
 ## Task 
-
+- Github link: https://github.com/01YM/nestjs-authentication
 - Installed @nestjs/config and joi. These are used to read environment variables and check that required values exist 
 
 ![nestjsconfig joi](image.png)

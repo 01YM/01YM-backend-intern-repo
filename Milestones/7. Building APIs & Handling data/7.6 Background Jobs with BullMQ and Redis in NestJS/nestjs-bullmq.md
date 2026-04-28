@@ -17,7 +17,7 @@
 - BullMQ would be useful for background jobs related to timed and scheduled actions. For example, it can help run focus session timers, send reminders to start a habit, trigger break notifications, update progress after a session ends, and handle recurring routine tasks without making the main app wait. This is useful because the app needs many actions to happen at the right time in the background while the user is focusing on their tasks
 
 ## Task
-
+- github link: https://github.com/01YM/nestjs-inventory-game
 - installed bullmq and @nestjs/bullmq in the NestJS project so the app can create queues and process background jobs
 
 ![installingbullmq](image.png)

@@ -17,7 +17,7 @@
 - INestJS uses decorators. For example, @Get() means this function should run for a GET request, and @Post() means it should run for a POST request. Nest reads these decorators and builds the routes for you automatically. So if your controller says @Controller('tasks') and a method says @Get(), Nest makes that route work as GET /tasks.
 
 ## Task 
-
+- github link: https://github.com/01YM/nestjs-inventory-game
 - created a new tasks folder with a controller, module, and service file so the project had a separate feature for managing tasks, similar to the existing player and inventory folders. The controller handled routes like getting, creating, updating, and deleting tasks.
 
 ![TasksController](image.png)

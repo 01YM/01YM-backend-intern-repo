@@ -11,6 +11,7 @@
 ### How does NestJS ensure modularity and separation of concerns?
 - NestJS separates different jobs into different files. InventoryController only handles requests, the InventoryService only handles the inventory logic, and the InventoryModule groups them together
 ## Task -- Controlelr with module 
+- github link: https://github.com/01YM/nestjs-inventory-game
 
 - This example is a simple application for inventory API. It lets you view a player's items through a NestJS endpoint
 
