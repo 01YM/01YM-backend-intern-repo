@@ -14,4 +14,20 @@
 
 ## Task 
 
-- 
+- Updated the GET method in the controller to log incoming request data, including headers and body. This makes it easier to see exactly what the client is sending and helps identify issues such as missing or incorrectly formatted data
+
+![updateGetcontroller](image.png)
+
+- Tested the endpoint using Bruno by sending a GET request to the API. The response returned a 200 OK status, confirming that the endpoint is functioning correctly and the server is handling requests as expected.
+
+![bruno](image-1.png)
+
+- Created a logger.middleware.ts file to log request details before they reach the controller. The middleware captures the request method, URL, headers, and body, providing a consistent way to monitor incoming API traffic across the application.
+
+![middleware](image-2.png)
+
+- Reviewed the terminal output after sending requests from Bruno. The logs clearly show the request method, endpoint, and headers, confirming that the middleware is successfully intercepting requests. The body appears as undefined for GET requests, which is expected as GET requests typically do not include a payload.
+
+![terminalrequest](image-3.png)
+
+- By logging request data in both the controller and middleware, it became easier to trace how requests are received and processed by the backend. Testing the endpoint in Bruno and verifying the 200 OK response confirmed that the API was functioning correctly. Overall, using logging alongside API testing tools provides a clear view of application behaviour and is an effective approach for identifying and resolving issues during development.
