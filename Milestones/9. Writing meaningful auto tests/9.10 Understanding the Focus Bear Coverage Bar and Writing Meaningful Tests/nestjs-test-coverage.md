@@ -20,7 +20,6 @@
 
 - The best balance is to write tests that cover important behaviour, not just lines of code. It is good to improve coverage, but each test should still have a clear purpose and meaningful assertions. For example, instead of only testing the happy path, it is better to also test edge cases like empty data, invalid input, and error responses
 
-
 ## Task 
 
 - Ran npm run test:cov to generate the coverage report. This showed which parts of the code weren’t being tested, with the Tasks service and controller clearly showing up as low coverage areas
